@@ -1,0 +1,24 @@
+﻿# 构建产物
+*.zip
+build-package.ps1
+_build/
+_dist/
+
+# 日志（运行时生成）
+logs/*.log
+logs/诊断报告-*.txt
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 临时文件
+*.tmp
+*.bak
